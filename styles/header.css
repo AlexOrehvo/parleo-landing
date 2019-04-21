@@ -1,0 +1,80 @@
+header {
+	background: #5264ff url("../images/main-bg.jpg") no-repeat center center / cover;
+	color: #fff;
+}
+
+.nav-link {
+	color: #fff;
+	font-weight: SemiBold;
+}
+
+.nav-link:hover {
+	color: #ffcc00;
+}
+
+.header_preview {
+	margin-top: 50px;
+}
+
+.header_title {
+	font-size: 72px;
+	font-weight: SemiBold;
+}
+
+.header_description {
+	margin-top: 25px;
+	font-size: 18px;
+	padding-right: 150px;
+}
+
+.header_buttons {
+	margin-top: 40px;
+}
+
+.header_buttons button {
+	background: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 25px;
+	padding: 10px 20px;
+	border: none;
+}
+
+.header_buttons button:hover {
+	background: #ffcc00;
+}
+
+.header_buttons button:first-child {
+	margin-right: 30px;
+}
+
+.header_phone {
+	box-shadow: 15px 15px 30px 2px #171c46;
+}
+
+.header_phone:nth-child(1) {
+	margin-left: 50px;
+	margin-right: 12px;
+}
+
+.header_phone:nth-child(2) {
+	margin-top: 30px;
+}
+
+.header_arrow {
+	font-size: 50px;
+	font-weight: light;
+	margin-top: 30px;
+}
+
+.header_arrow i {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.header_arrow i:hover {
+	transition: 0.5s;
+	background: rgba(200, 200, 200, 0.2);
+}
