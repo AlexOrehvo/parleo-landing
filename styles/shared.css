@@ -17,3 +17,30 @@ h1, h2, h3, h4, h5, h6, p {
 .page {
 	height: 100vh;
 }
+
+.section-header-number{
+    margin-left: -22% !important;
+    margin: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 144px;
+    line-height: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.05);
+}
+
+.section-header{
+    margin-right: 3%!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: normal;
+    text-align: left;
+    margin: auto;
+}
+
+.section-header-line{
+    margin-left: 0!important;
+    margin: auto;
+    width: 100%;
+}
