@@ -1,0 +1,22 @@
+.motivation{
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    background: #F2F7FF;
+}
+.mainblock{
+    max-height: 70vh;
+    display: flex;
+}
+.motivation .section-header{
+    color: rgba(0, 0, 0, 0.5);
+}
+.motivation .content{
+    text-align: right
+}
+.summary{
+    text-align: center;
+}
