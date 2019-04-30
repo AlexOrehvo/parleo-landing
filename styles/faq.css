@@ -1,0 +1,47 @@
+.faq {
+	background: rgba(0, 0, 0, 0.97);
+	color: #fff;
+}
+
+.label {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.question {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.faq .section-header-number {
+	color: rgba(255, 255, 255, 0.05);
+}
+
+.faq hr {
+	border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.faq-button {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.faq-button button {
+	border-radius: 25px;
+	background: #ffcc00;
+	color: #000;
+	font-weight: 600;
+	padding: 13px 55px;
+}
+
+.faq-message {
+	margin-top: 70px;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+footer {
+	background: #ff0000;
+	height: 50vh;
+}
