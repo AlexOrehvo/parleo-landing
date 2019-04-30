@@ -1,0 +1,65 @@
+.how-its-done{
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.97);
+}
+.how-its-done .mainblock{
+    padding-top: 10vh;
+    max-height: 70vh;
+    display: flex;
+}
+.how-its-done .section-header{
+    color: rgba(255, 255, 255, 0.75);
+}
+.how-its-done hr{
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+.how-its-done .section-header-number{
+    color: rgba(255, 255, 255, 0.05);
+}
+.paragraph-header{
+    padding-top: 3.9vh;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: normal;
+    color: #FFFFFF;
+}
+.paragraph-text{
+    padding-top: 0.9vh;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.5);
+}
+.triple-image IMG {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+}
+.image-first{
+    z-index: 5;
+    max-height: 34.3vh;
+    
+}
+.image-second{
+    top: -31%;
+    left: 5%;
+    z-index: 2;
+    max-height: 34.3vh;
+    
+}
+.image-third{
+    top: -62%;
+    left: 10%;
+    z-index: 1;
+    max-height: 34.3vh;
+}
+.left{
+    align-items: center;
+}
