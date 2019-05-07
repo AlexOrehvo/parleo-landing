@@ -76,7 +76,7 @@ if touchScroll is false - update index
       //section should be an identifier that is the same for each section
       section: ".section",
       sectionName: "section-name",
-      interstitialSection: "",
+      interstitialSection: ".footer",
       easing: "easeOutExpo",
       scrollSpeed: 1100,
       offset: 0,

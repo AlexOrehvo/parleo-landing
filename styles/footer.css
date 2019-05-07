@@ -1,0 +1,20 @@
+.footer{
+    background: rgba(31, 31, 31, 0.97);
+   
+}
+.footer .mainblock{
+    padding-bottom: 5vh
+}
+.footer .text{
+     color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+.footer .subheader{
+     color: #FFFFFF;
+}
+.follow-img{
+    padding-right: 4%;
+}
