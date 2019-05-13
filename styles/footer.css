@@ -1,20 +1,34 @@
 .footer{
     background: rgba(31, 31, 31, 0.97);
-   
+    padding-bottom: 70px;
 }
-.footer .mainblock{
-    padding-bottom: 5vh
-}
+
 .footer .text{
-     color: #FFFFFF;
-    font-style: normal;
-    font-weight: 600;
+    color: #FFFFFF;
     font-size: 18px;
-    line-height: 22px;
 }
+
 .footer .subheader{
-     color: #FFFFFF;
+    color: #FFFFFF;
+    font-weight: bolder;
 }
-.follow-img{
-    padding-right: 4%;
+
+.footer nav {
+    margin-top: 20px;
+}
+
+.footer .nav-link {
+    padding: 0;
+}
+
+.footer .nav-item {
+    margin-right: 20px;
+}
+
+.footer .images {
+    margin-top: 20px;
+}
+
+.footer .images img {
+    margin-right: 20px;
 }

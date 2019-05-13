@@ -32,6 +32,8 @@ $(function () {
         section: ".page",
         sectionName: "page-name",
         easing: "easeOutCubic",
+        setHeights: true,
+        overflowScroll: true,
         scrollSpeed: 600,
         scrollbars: false,
         before: function(i, panels) {

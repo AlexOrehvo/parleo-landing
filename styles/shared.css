@@ -4,7 +4,7 @@ body {
 	font-family: Montserrat;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, span {
 	padding: 0;
 	margin: 0;
 }
@@ -15,32 +15,45 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .page {
-	height: 100vh;
-}
-
-.section-header-number{
-    margin-left: -22% !important;
-    margin: auto;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 144px;
-    line-height: normal;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.05);
+	min-height: 100vh;
+    height: auto;
+    overflow: visible;
 }
 
 .section-header{
-    margin-right: 3%!important;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: normal;
-    text-align: left;
-    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.section-header-line{
-    margin-left: 0!important;
-    margin: auto;
-    width: 100%;
+.section-header-title {
+    font-size: 36px;
+    font-weight: bolder;
 }
+
+.section-header-number {
+    font-size: 122px;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+
+    .section-header-number {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .section-header-number {
+        font-size: 48px;
+    }
+
+    .section-header-title {
+        font-size: 24px;
+    }
+}
+
+
+
+

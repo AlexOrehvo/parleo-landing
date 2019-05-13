@@ -1,34 +1,29 @@
 .why-parleo{
-    font-family: Montserrat;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    overflow: hidden;
+    padding-bottom: 80px;
 }
-.mainblock{
-    max-height: 70vh;
-    display: flex
+.why-parleo .section-header-title {
+    color: rgba(0, 0, 0, 0.5);
 }
-.image02{
-    margin-left:0!important;
-    max-height: 35.9vh;
-    margin: auto;
-    max-width: 100%;
+
+.why-parleo .section-header-number {
+    color: rgba(0, 0, 0, 0.05);
 }
-.content-column{
-    display: flex;
-    flex-direction: column;
+
+.content-column {
+    margin-top: 30px;
 }
-.subheader{
+
+.subheader {
     padding-top: 3.75vh;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: normal;
     color: #212121;
+    text-align: start;
 }
 .text{
+    text-align: start;
     padding-top: 3.75vh;
     font-style: normal;
     font-weight: 500;
