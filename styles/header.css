@@ -26,7 +26,6 @@ header {
 .header_description {
 	margin-top: 25px;
 	font-size: 18px;
-	padding-right: 150px;
 }
 
 .header_buttons {
@@ -65,7 +64,6 @@ header {
 
 .header_arrow {
 	font-size: 50px;
-	font-weight: light;
 	margin-top: 30px;
 }
 
@@ -79,4 +77,28 @@ header {
 .header_arrow i:hover {
 	transition: 0.5s;
 	background: rgba(200, 200, 200, 0.2);
+}
+
+@media (max-width: 767px) {
+
+	.header_images {
+		display: none;
+	}
+
+	.header_buttons {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.header_buttons button:first-child {
+		margin-right: 5px;
+	}
+}
+
+@media (max-width: 321px) {
+
+	.header_buttons button:first-child {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
 }

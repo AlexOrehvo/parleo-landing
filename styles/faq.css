@@ -1,25 +1,26 @@
 .faq {
 	background: rgba(0, 0, 0, 0.97);
 	color: #fff;
+	padding-bottom: 80px;
 }
 
-.label {
-	font-size: 18px;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-.question {
-	font-size: 18px;
-	font-weight: bold;
+.faq .section-header-title {
+	color: rgba(255, 255, 255, 0.75);
 }
 
 .faq .section-header-number {
 	color: rgba(255, 255, 255, 0.05);
 }
 
-.faq hr {
-	border-top: 1px solid rgba(255, 255, 255, 0.25);
+.label {
+	font-size: 18px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+.question {
+	font-size: 18px;
+	font-weight: bolder;
 }
 
 .faq-button {
@@ -39,9 +40,14 @@
 	margin-top: 70px;
 	font-size: 48px;
 	font-weight: bold;
+	text-align: center;
 }
 
-footer {
-	background: #ff0000;
-	height: 50vh;
+@media (max-width: 767px) {
+	.faq-column {
+		margin-top: 20px;
+	}
+	.faq-message {
+		margin-top: 30px;
+	}
 }

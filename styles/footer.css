@@ -1,0 +1,34 @@
+.footer{
+    background: rgba(31, 31, 31, 0.97);
+    padding-bottom: 70px;
+}
+
+.footer .text{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.footer .subheader{
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.footer nav {
+    margin-top: 20px;
+}
+
+.footer .nav-link {
+    padding: 0;
+}
+
+.footer .nav-item {
+    margin-right: 20px;
+}
+
+.footer .images {
+    margin-top: 20px;
+}
+
+.footer .images img {
+    margin-right: 20px;
+}
