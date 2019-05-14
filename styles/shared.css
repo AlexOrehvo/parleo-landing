@@ -1,13 +1,13 @@
 body {
-	padding: 0;
-	margin: 0;
-	font-family: Montserrat;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
     font-weight: 600;
 }
 
 h1, h2, h3, h4, h5, h6, p, span {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .container-fluid {
@@ -16,12 +16,12 @@ h1, h2, h3, h4, h5, h6, p, span {
 }
 
 .page {
-	min-height: 100vh;
+    min-height: 100vh;
     height: auto;
     overflow: visible;
 }
 
-.section-header{
+.section-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +29,6 @@ h1, h2, h3, h4, h5, h6, p, span {
 
 .section-header-title {
     font-size: 36px;
-    font-weight: bolder;
 }
 
 .section-header-number {
@@ -54,7 +53,3 @@ h1, h2, h3, h4, h5, h6, p, span {
         font-size: 24px;
     }
 }
-
-
-
-

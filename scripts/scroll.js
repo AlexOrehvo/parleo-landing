@@ -1,32 +1,3 @@
-// does not work on mobile
-// $(document).ready(function() {
-//     var currentElement = 1,
-//         scrollAllowed = true,
-//         maxLength = $("div[id^='page']").length;
-
-//     function scrollHandle(e) {
-//         if (scrollAllowed) {
-//             scrollAllowed = false;
-//             if (e.originalEvent.wheelDelta > 0) {
-//                 currentElement = currentElement > 1 ? currentElement - 1 : 1;
-//                 $("html, body").animate({
-//                     scrollTop: $("#page-" + currentElement).offset().top
-//                 }, "easeOutCubic", function () {
-//                     scrollAllowed = true;
-//                 });
-//             } else {
-//                 currentElement = currentElement < maxLength ? currentElement + 1 : currentElement;
-//                 $("html, body").animate({
-//                     scrollTop: $("#page-" + currentElement).offset().top
-//                 }, "easeOutCubic", function () {
-//                     scrollAllowed = true;
-//                 });
-//             }
-//         }
-//     }
-
-//     $(document).on("mousewheel", scrollHandle);
-// });
 $(function () {
     $.scrollify({
         section: ".page",

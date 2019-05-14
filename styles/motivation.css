@@ -11,8 +11,9 @@
 }
 
 .motivation .content {
+    text-align: right;
     font-size: 16px;
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 .signature {
@@ -22,12 +23,21 @@
 .summary{
     text-align: end;
     font-size: 16px;
-    font-weight: bolder;
+    font-weight: 600;
+}
+
+.danya {
+    position: relative;
+}
+
+.danya img {
+    position: absolute;
+    top: 18px;
 }
 
 @media (max-width: 767px) {
 
-    .Danya {
+    .danya {
         display: none;
     }
 }

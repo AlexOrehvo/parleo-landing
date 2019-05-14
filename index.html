@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Parleo</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/scroll.css">
     <link rel="stylesheet" href="styles/shared.css">
@@ -22,6 +22,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="scripts/jquery.scrollify.js"></script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 <body class="container-fluid">
 
@@ -40,17 +41,17 @@
                         <div class="navbar-collapse">
                             <ul class="nav">
 
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#why">Why Parleo?</a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" onclick="$.scrollify.move('#why');">Why Parleo?</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#how">How to</a>
+                                    <a class="nav-link" href="#" onclick="$.scrollify.move('#how');">How to</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#motivation">Motivation</a>
+                                    <a class="nav-link" href="#" onclick="$.scrollify.move('#motivation');">Motivation</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#FAQ">FAQ</a>
+                                    <a class="nav-link" href="#" onclick="$.scrollify.move('#FAQ');">FAQ</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link blog" href="#">Blog</a>
@@ -60,60 +61,60 @@
                     </nav>
                 </div>
             </div>
-            <div class="row justify-content-start header_preview">
+            <div class="row justify-content-start header-preview">
                 <div class="col-md-6">
                     <div class="row">
-                        <h1 class="col-12 header_title">Parleo</h1>
+                        <h1 class="col-12 header-title">Parleo</h1>
                     </div>
                     <div class="row">
-                        <p class="col-12 header_description">
+                        <p class="col-12 header-description">
                             Meet people and stuff, I don’t know what do you want to read here.<br>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                             do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
                     <div class="row">
-                        <div class="col-12 header_buttons">
+                        <div class="col-12 header-buttons">
                             <button class="btn btn-light" data-toggle="modal" data-target="#modal">Download app</button>
                             <button class="btn btn-light">Open web version</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="row header_images">
+                    <div class="row header-images">
                         <div class="col-12">
-                            <img src="images/events-screen.png" class="rounded float-center header_phone" alt="Events screen">
-                            <img src="images/chat-screen.png" class="rounded float-center header_phone" alt="Chat screen">
+                            <img src="images/events-screen.png" class="float-center header-phone" alt="Events screen">
+                            <img src="images/chat-screen.png" class="float-center header-phone" alt="Chat screen">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center header_arrow">
-                <a href="#123"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <div class="row justify-content-center header-arrow">
+                <a href="#" onclick="$.scrollify.move('#why');"><img src="images/Down arrow.svg" alt="down arrow"></a>
             </div>
         </div>
     </header>
 
-    <section class="page container why-parleo" data-page-name="why" id="why">
+    <section class="page container why-parleo" data-page-name="why">
         <div class="row justify-content-center">
             <div class="col-12 section-header">
                 <p class="section-header-title">Why Parleo?</p>
                 <p class="section-header-number">01</p>
             </div>
         </div>
-        <div class="row justify-content-md-around">
-            <div class="col-md-6 content-column">
+        <div class="row justify-content-around">
+            <div class="col-5 content-column">
                 <img src="images/bg-img.png" class="img-fluid image02">
                 <div class="subheader">Meet new people</div>
-                <div class="text">Meet people and stuff, I don’t know                  what do you want to read here.
+                <div class="text">Meet people and stuff, I don’t know what do you want to read here.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </div>
             </div>
-            <div class="col-md-6 content-column">
+            <div class="col-5 content-column">
                 <img src="images/bg-img.png" class="img-fluid image02">
                 <div class="subheader">Meet new people</div>
-                <div class="text">Meet people and stuff, I don’t know                  what do you want to read here.
+                <div class="text">Meet people and stuff, I don’t know what do you want to read here.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </div>
@@ -121,7 +122,7 @@
         </div>
     </section>
 
-    <section class="page how-its-done" data-page-name="how" id="how">
+    <section class="page how-its-done" data-page-name="how">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 section-header">
@@ -157,7 +158,7 @@
         </div>
     </section>
 
-    <section class="page motivation" data-page-name="motivation" id="motivation">
+    <section class="page motivation" data-page-name="motivation">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 section-header">
@@ -167,15 +168,15 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-5 content-column left">
-                    <div class="Danya">
-                        <img src=images/danya.png>
+                    <div class="danya">
+                        <img src="images/danya.png">
                     </div>
                 </div>
                 <div class="col-md-7 content-column right">
                     <div class="content">
                         Aenean pellentesque eros eget magna dignissim condimentum. Ut cursus odio augue, quis pulvinar turpis convallis vel. Duis vel purus orci. Phasellus vulputate magna nec cursus interdum. Mauris ullamcorper egestas ex consequat dapibus. Nunc nisi lectus, interdum id lacus in, gravida malesuada nibh. Nulla at metus in mauris egestas ornare. Maecenas eget est finibus odio placerat venenatis. Phasellus id erat pharetra tellus placerat blandit ut at purus. Maecenas ut velit eu massa mollis fermentum in quis arcu. In hac habitasse platea dictumst.
                         <div class="signature">
-                            <img src ="images/generatedtext.png" class="sig-img">
+                            <img src="images/generatedtext.png" class="sig-img">
                         </div>
                         <div class="summary">
                             CEO & Co-founder Daniil Borysevich
@@ -186,7 +187,7 @@
         </div>
     </section>
 
-    <section class="page faq" data-page-name="FAQ" id="FAQ">
+    <section class="page faq" data-page-name="FAQ">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 section-header">
@@ -194,28 +195,25 @@
                     <p class="section-header-number">04</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row  justify-content-center">
                 <div class="col-md-4 faq-column">
                     <p class="question"><span class="label">q. </span>Cool question, they are short</p>
-                    <p class="answer"><span class="label">a. </span> Some very cool answer Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Aenean pellentesque eros eget magna dignissim condimentum.
+                    <p class="answer"><span class="label">a. </span> Some very cool answer  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque eros eget magna dignissim condimentum.
                     </p>
                 </div>
                 <div class="col-md-4 faq-column">
                     <p class="question"><span class="label">q. </span>Cool question, they are short</p>
-                    <p class="answer"><span class="label">a. </span> Some very cool answer Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Aenean pellentesque eros eget magna dignissim condimentum.
+                    <p class="answer"><span class="label">a. </span> Some very cool answer  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque eros eget magna dignissim condimentum.
                     </p>
                 </div>
                 <div class="col-md-4 faq-column">
                     <p class="question"><span class="label">q. </span>Cool question, they are short</p>
-                    <p class="answer"><span class="label">a. </span> Some very cool answer Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Aenean pellentesque eros eget magna dignissim condimentum.
+                    <p class="answer"><span class="label">a. </span> Some very cool answer  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque eros eget magna dignissim condimentum.
                     </p>
                 </div>
             </div>
             <div class="row justify-content-center faq-message">
-                <h1>Got more questions?</h1>
+                <p>Got more questions?</p>
             </div>
             <div class="row justify-content-center faq-button">
                 <button class="btn">Email us</button>
@@ -225,10 +223,10 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="row justify-content-md-center">
+            <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <div class="subheader">Parleo</div>
-                    <div class="text">Meet people and stuff, I don’t know                   what do <br> you want to read here.<br>
+                    <div class="subheader parleo">Parleo</div>
+                    <div class="text">Meet people and stuff, I don’t know what do <br> you want to read here.<br>
                         Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed
                         do eiusmod tempor<br>  incididunt ut labore et dolore magna aliqua.
                     </div>
@@ -238,19 +236,19 @@
                     <nav>
                         <ul class="nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#why">Why Parleo?</a>
+                                <a class="nav-link" href="#" onclick="$.scrollify.move('#why');">Why Parleo?</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#how">How to</a>
+                                <a class="nav-link" href="#" onclick="$.scrollify.move('#how');">How to</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#motivation">Motivation</a>
+                                <a class="nav-link" href="#" onclick="$.scrollify.move('#motivation');">Motivation</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#FAQ">FAQ</a>
+                                <a class="nav-link" href="#" onclick="$.scrollify.move('#FAQ');">FAQ</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
+                                <a class="nav-link blog" href="#">Blog</a>
                             </li>
                         </ul>
                     </nav>
@@ -276,7 +274,7 @@
                         <p>Scan the QR code below:</p>
                     </div>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="fa fa-times" aria-hidden="true"></i>
+                        <img src="images/times.svg" alt="close">
                     </button>
                 </div>
                 <div class="modal_body">
@@ -314,6 +312,5 @@
     </div>
 
     <script src="scripts/scroll.js"></script>
-    <script src="scripts/menu.js"></script>
 </body>
 </html>

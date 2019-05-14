@@ -1,16 +1,23 @@
-.footer{
+.footer {
     background: rgba(31, 31, 31, 0.97);
+    padding-top: 23px;
     padding-bottom: 70px;
 }
 
-.footer .text{
+.footer .text {
     color: #FFFFFF;
+    padding-top: 10px;
     font-size: 18px;
 }
 
 .footer .subheader {
     color: #FFFFFF;
-    font-weight: bolder;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.footer .subheader.parleo {
+    font-size: 48px;
 }
 
 .footer nav {
@@ -19,10 +26,6 @@
 
 .footer .nav-link {
     padding: 0;
-}
-
-.footer .nav-item {
-    margin-right: 20px;
 }
 
 .footer .images {
