@@ -5,9 +5,13 @@ header {
     height: 100%;
 }
 
+.nav {
+	justify-content: flex-end;
+}
+
 .nav-link {
 	color: #fff;
-	font-weight: SemiBold;
+	font-weight: 600;
 }
 
 .nav-link:hover {
@@ -20,7 +24,7 @@ header {
 
 .header_title {
 	font-size: 72px;
-	font-weight: SemiBold;
+	font-weight: 600;
 }
 
 .header_description {
@@ -35,7 +39,7 @@ header {
 .header_buttons button {
 	background: #fff;
 	font-size: 14px;
-	font-weight: bold;
+	font-weight: 600;
 	border-radius: 25px;
 	padding: 10px 20px;
 	border: none;

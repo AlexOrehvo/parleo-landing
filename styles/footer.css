@@ -8,7 +8,7 @@
     font-size: 18px;
 }
 
-.footer .subheader{
+.footer .subheader {
     color: #FFFFFF;
     font-weight: bolder;
 }
@@ -31,4 +31,5 @@
 
 .footer .images img {
     margin-right: 20px;
+    cursor: pointer;
 }
