@@ -1,5 +1,5 @@
-$('.menu-btn').on('click', function(e) {
-  e.preventDefault;
-  $(this).toggleClass('menu-btn_active');
-  $('.nav').toggleClass('nav-active');
-});
+var isMenuHidden = true;
+
+$('#toggle-menu').('click', function(
+		$('#nav-menu')
+	));

@@ -8,7 +8,7 @@ ul {
     top: 50%;
     transform: translateY(-50%);
     z-index: 10;
-    color: #aaa;
+    color: #ccc;
     font-size: 75%;
 }
 
@@ -16,7 +16,7 @@ ul {
     display: block;
     height: 20px;
     margin-bottom: 5px;
-    color: #aaa;
+    color: #ccc;
     position: relative;
     padding: 4px;
 }
@@ -44,7 +44,7 @@ ul {
     width: 9px;
     height: 9px;
     display: block;
-    background-color: #aaa;
+    background-color: #ccc;
     border-radius: 50%;
     content: '';
     position: absolute;
@@ -52,6 +52,6 @@ ul {
     top: 0;
     right: 4px;
     bottom: 0;
-    will-change: transform; 
+    will-change: transform;
     transition: all 0.5s ease;
 }

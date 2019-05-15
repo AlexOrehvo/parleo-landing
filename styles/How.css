@@ -27,7 +27,7 @@
     line-height: normal;
     color: rgba(255, 255, 255, 0.5);
 }
-.triple-image IMG {
+.triple-image img {
     display: flex;
     position: relative;
     max-width: 100%;
@@ -35,14 +35,14 @@
 .image-first{
     z-index: 5;
     max-height: 34.3vh;
-    
+
 }
 .image-second{
     margin-top: -45%;
     right: -7%;
     z-index: 2;
     max-height: 34.3vh;
-    
+
 }
 .image-third{
     margin-top: -45%;
@@ -60,5 +60,5 @@
     }
     .image-third{
         right: 0;
-    }    
+    }
 }
