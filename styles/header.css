@@ -27,11 +27,12 @@ header > .container {
     width: 1%;
 }
 
-.nav-link {
-    color: #fff;
-    font-weight: 600;
+@media (min-width: 768px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        font-weight: 600;
+    }
 }
-
 .nav-link:hover {
     transition: all .15s;
     color: #ffcc00;
@@ -45,6 +46,10 @@ header > .container {
     padding-left: 9px;
     font-size: 72px;
     font-weight: 600;
+}
+
+.header-images {
+    margin-top: -40px;
 }
 
 .header-description {
@@ -74,10 +79,6 @@ header > .container {
     margin-right: 30px;
 }
 
-.header-phone {
-    box-shadow: 15px 15px 30px 2px #171c46;
-}
-
 .header-phone:nth-child(1) {
     margin-left: 30px;
     margin-right: 12px;
@@ -87,7 +88,30 @@ header > .container {
     margin-top: 50px;
 }
 
+@media (max-width: 1220px) {
+    .header-phones .header-phone:first-child {
+        display: none;
+    }
+}
 @media (max-width: 767px) {
+
+    .navbar .nav {
+        position: absolute;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 30px;
+        background: rgba(240, 240, 240, 0.95);
+    }
+
+    .page .row:first-child {
+        margin-right: 0;
+    }
+
+    .page .row:nth-child(3) {
+        margin-right: 0;
+    }
 
     .header-images {
         display: none;
