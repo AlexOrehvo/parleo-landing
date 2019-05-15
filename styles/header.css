@@ -27,11 +27,12 @@ header > .container {
     width: 1%;
 }
 
-.nav-link {
-    color: #fff;
-    font-weight: 600;
+@media (min-width: 768px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        font-weight: 600;
+    }
 }
-
 .nav-link:hover {
     transition: all .15s;
     color: #ffcc00;
